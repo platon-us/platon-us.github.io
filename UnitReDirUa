@@ -1,0 +1,1 @@
+javascript:(function()%7Bgeturl %3D window.location.href%3Breplace %3D geturl.replace('.ru'%2C '.com.ua')%3BredirectTo %3D window.location.href %3D replace%7D)()
