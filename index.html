@@ -1,50 +1,23 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//
-DTD HTML 4.01 Transitional//EN"
-"http://www.w3.org/TR/html4/loose.
-dtd">
-<html lang="en">
+<!DOCTYPE html>
+<html>
 
 <head>
-    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
-    <title>List of popular bookmarklets</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <style>
-    footer {
-        position: fixed;
-        left: 0;
-        bottom: 0;
-        width: 100%;
-        background-color: #67a730;
-        color: white;
-        text-align: left;
-        padding: 30px;
-    }
-
-    header {
-        position: fixed;
-        left: 0;
-        top: 0;
-        width: 100%;
-        background-color: #67a730;
-        color: white;
-        text-align: left;
-        padding: 30px;
-        font-weight: bold;
-    }
-
     body {
         margin: 0;
         font-family: Helvetica, sans-serif;
     }
 
     .top-container {
-        background-color: #f1f1f1;
+        background-color: #e4f4ff;
         padding: 30px;
         text-align: center;
     }
 
     .header {
         padding: 10px 16px;
-        background: #555;
+        background: #002f5b;
         color: #f1f1f1;
     }
 
@@ -61,28 +34,44 @@ dtd">
     .sticky+.content {
         padding-top: 102px;
     }
+
+    footer {
+
+        width: 100%;
+        background-color: #002f5b;
+        color: white;
+        text-align: left;
+        padding: 2px 30px;
+    }
     </style>
 </head>
-<header>
+
+<body>
     <div class="top-container">
-        <p>Scroll Down</p>
+        <p>Scroll down to see the sticky effect.</p>
     </div>
     <div class="header" id="myHeader">
         <h1>js-bookmarklets</h1>
     </div>
-</header>
-
-<body class="content">
-    <p>Hi there!</p>
-    <p>Drag and drop link to your bookmark folder in browser to use it</p>
-    <p>I hope it will be helpful for you</p>
-    <ul>
-        <li><a style="color: #67a730; font-weight: bold;" href="javascript:(function()%7Bgeturl %3D window.location.href%3Breplace %3D geturl.replace(%2F.com.ua%5C%2Fuk%7C.com.ua%5C%2Fru%7C.com.ua%7C.ua%7C.com%2Fgi%2C '.ru')%3BredirectTo %3D window.location.href %3D replace%3Bconsole.log(redirectTo)%7D)()
+    <div class="content">
+        <p>Hi there!</p>
+        <p>Drag and drop link to your bookmark folder in browser to use it</p>
+        
+        <ul>
+            <li><a style="color: #67a730; font-weight: bold;" href="javascript:(function()%7Bgeturl %3D window.location.href%3Breplace %3D geturl.replace(%2F.com.ua%5C%2Fuk%7C.com.ua%5C%2Fru%7C.com.ua%7C.ua%7C.com%2Fgi%2C '.ru')%3BredirectTo %3D window.location.href %3D replace%3Bconsole.log(redirectTo)%7D)()
 ">ReDirRu</a></li>
-        <li>reserved</li>
-        <li>reserved</li>
-    </ul>
-    <a href="https://github.com/platon-us/JS-bookmarklets" title="join us">bokmarklets-repository</a>
+            <li>reserved</li>
+            <li>reserved</li>
+        </ul>
+        <p>I hope it will be helpful for you</p>
+        <h3>Join us</h3>
+        <p> <a href="https://github.com/platon-us/JS-bookmarklets" title="join us">bokmarklets-repository</a></p>
+        <s><h3>On Scroll Sticky Header</h3>
+            <p>The header will stick to the top when you reach its scroll position.</p>
+            <p>Scroll back up to remove the sticky effect.</p>
+            <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
+        </s>
+    </div>
     <script>
     window.onscroll = function() { myFunction() };
 
