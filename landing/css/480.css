@@ -1,0 +1,43 @@
+.navigation__logo {
+  display: block;
+  margin: 15px auto;
+}
+
+.navigation__anchor {
+  /* display: inline-block; */
+  display: block;
+  width: 100%;
+  /* margin:  15px; */
+  /* float: none; */
+  text-align: center;
+  /* line-height: 1em; */
+}
+
+h1 {
+    text-align: left;
+    font-size: 40px;
+    margin-top: 20px auto;
+  }
+  
+  h2 {
+    text-align: left;
+    font-size: 25px;
+    margin: 20px auto;
+  }
+  header p {
+    font-size: 20px;
+    margin: 0;
+}
+
+button {
+    background-color: #ed7d00;
+    border: none;
+    color: white;
+    padding: 15px 30px;
+    margin: 24px auto;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    border-radius: 30px;
+}
