@@ -8,7 +8,7 @@ body {
 }
 
 header {
-  background-image: url(/img/HeaderBG.png);
+  background-image: url(/landing/img/HeaderBG.png);
   height: 1000px;
   background-size: cover;
   background-repeat: no-repeat;
@@ -202,7 +202,7 @@ main span {
 footer {
   position: relative;
   display: block;
-  background-image: url(/img/FooterBG.png);
+  background-image: url(/landing/img/FooterBG.png);
   height: 628px;
   background-size: cover;
   background-repeat: no-repeat;
