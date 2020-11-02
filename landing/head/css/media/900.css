@@ -1,0 +1,47 @@
+body {
+  background-color: rgb(219, 171, 247);
+}
+h1 {
+  text-align: left;
+  font-size: 50px;
+  margin-top: 30px;
+}
+h2 {
+  text-align: left;
+  font-size: 36px;
+  margin: 30px auto 15px;
+}
+.navigation__logo {
+  max-width: 150px;
+}
+.header__pic {
+  display: block;
+  margin: 30px auto;
+  /* float: none; */
+  max-width: 80%;
+}
+.main-container_hide {
+  display: none;
+}
+.program {
+  width: 100%;
+}
+.networking {
+  display: grid;
+  grid-template-columns: auto;
+}
+footer .container_mw-1170 {
+  grid-template-columns: none;
+  grid-template-rows: auto auto;
+}
+
+.registration .decorative {
+  display: none;
+}
+.program-header {
+  flex-wrap: wrap;
+}
+
+.program-header__pic {
+  margin: auto;
+}

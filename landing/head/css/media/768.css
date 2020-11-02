@@ -1,0 +1,32 @@
+main {
+  margin-top: 30px;
+}
+.networking {
+  padding-bottom: 100px;
+}
+
+.schedule {
+  display: flex;
+  flex-direction: column;
+}
+.schedule__item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.schedule__icon {
+  margin-right: 0;
+  align-self: center;
+}
+.schedule figcaption {
+  font-size: 45px;
+}
+.schedule__item_fsz57px {
+  font-size: 36px;
+}
+.program img {
+  display: none;
+}
+.program p {
+  margin-left: auto;
+}

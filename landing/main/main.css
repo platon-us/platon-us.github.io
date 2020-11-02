@@ -1,0 +1,212 @@
+.container_mw-1170 {
+  padding: 0 15px;
+  max-width: 1170px;
+  margin: 0 auto;
+}
+
+main {
+  margin-top: 118px;
+}
+
+.main_background-blue {
+  background-color: #f1f8ff;
+  padding: 55px 0 271px 0;
+  margin: 0 0 -200px 0;
+}
+
+main h3 {
+  margin: 50px 0;
+  color: #0097a7;
+  font-size: 40px;
+  line-height: 48px;
+}
+main p {
+  line-height: 40px;
+  font-size: 24px;
+}
+
+.schedule__item:first-child {
+  grid-column: 1 / 3;
+}
+.schedule {
+  max-width: 1000px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  row-gap: 80px;
+  justify-content: center;
+  color: #ed7d00;
+  font-size: 25px;
+  padding-bottom: 80px;
+}
+
+.schedule__item {
+  display: flex;
+}
+.schedule__item_fsz57px {
+  font-size: 57px;
+  align-self: center;
+}
+.schedule__icon {
+  display: flex;
+  flex-direction: column;
+  margin-right: 30px;
+}
+.schedule__item figure img {
+  align-self: center;
+  margin: auto;
+}
+.schedule__item figcaption {
+  color: #5b87b4;
+  font-size: 25px;
+  text-align: center;
+  margin: 25px auto;
+}
+.schedule span {
+  display: table-cell;
+}
+.timetable {
+  display: table;
+}
+.timetable__row {
+  display: table-row;
+}
+.timetable__time {
+  display: table-cell;
+  font-size: 30px;
+  font-weight: 500;
+}
+.timetable__action {
+  display: table-cell;
+  padding-left: 30px;
+}
+
+.decorative {
+  height: 100%;
+}
+
+.registration__pic {
+  display: flex;
+  justify-content: flex-end;
+  align-content: flex-end;
+}
+.registration .decorative {
+  height: 500px;
+}
+
+.program {
+  flex-shrink: 0;
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 70%;
+}
+.program__item {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+  align-content: flex-start;
+  margin: 25px auto;
+}
+.program__name {
+  color: #0097a7;
+}
+
+.program img {
+  width: 134px;
+  object-fit: cover;
+  display: block;
+}
+.program__item p {
+  margin: 0 0 0 40px;
+  padding: 0;
+}
+
+.networking {
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 60px 30px;
+  padding-bottom: 230px;
+}
+.networking img {
+  display: block;
+  max-height: 200px;
+  width: auto;
+  margin: 0 auto 60px;
+  align-self: end;
+}
+.networking__item {
+  display: grid;
+  grid-template-rows: 176px auto;
+  text-align: center;
+}
+.networking img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.registration {
+  background-image: url(/landing/main/registration/RgBG.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+}
+
+.registration__form {
+  max-width: 600px;
+  border-radius: 15px;
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 60px 130px;
+  box-shadow: 0 0 5px gray;
+}
+form {
+  margin: 0 auto;
+}
+form input {
+  border-radius: 0;
+  border: 0 transparent;
+  border-bottom: 1px solid gray;
+  font-size: 14px;
+  width: 100%;
+  line-height: 46px;
+  padding: 0 8px;
+}
+.chek-section {
+  padding: 10px 0 30px;
+  display: inline-flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: normal;
+  align-items: flex-start;
+  align-content: flex-start;
+}
+.chek-section label{
+  display: block;
+  
+  flex-shrink: 1;
+  flex-basis: auto;
+  align-self: auto;
+  order: 0;
+}
+#confirmation{
+  display: inline;
+  
+  flex-shrink: 1;
+  flex-basis: auto;
+  align-self: auto;
+  order: 0;
+}
+#submit {
+  background-color: #ed7d00;
+  border: 0;
+  color: #fff;
+  padding: 10px;
+}
+
+.registration img {
+  align-self: end;
+}

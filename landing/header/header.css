@@ -1,0 +1,101 @@
+.container_mw-1170 {
+  padding: 0 15px;
+  max-width: 1170px;
+  margin: 0 auto;
+}
+
+header {
+  background-image: url(/landing/header/HeaderBG.png);
+  background-position: bottom center;
+  min-height: 1000px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+}
+
+.navigation {
+  background-color: #0097a7;
+  width: 100wv;
+  box-shadow: 0 0 15px #000;
+}
+
+.navigation__links-list {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  height: 104px;
+}
+
+.navigation__anchor {
+  padding-left: 60px;
+}
+.navigation__logo {
+  margin-right: auto;
+  width: 205px;
+}
+.navigation__mobile-menu .navigation__link {
+  display: none;
+  font-size: 45px;
+}
+.navigation__link {
+  color: #fff;
+  font-size: 24px;
+}
+
+.navigation__link:hover,
+.contacts a:hover {
+  color: #166a76;
+}
+
+button {
+  background-color: #ed7d00;
+  border: none;
+  color: white;
+  padding: 15px 30px;
+  margin: 24px auto;
+  text-align: center;
+
+  display: inline-block;
+  font-size: 24px;
+  border-radius: 30px;
+}
+
+button:focus {
+  outline-style: none;
+  outline-width: 0px !important;
+  outline-color: none !important;
+}
+button:hover {
+  background-color: #eb983b;
+  color: #166a76;
+}
+
+h1 {
+  text-align: center;
+  color: #46d6ff;
+  margin-top: 100px;
+  font-size: 57px;
+}
+
+h2 {
+  text-align: center;
+  color: #fff;
+  font-size: 34px;
+  padding: 0;
+  margin: 60px auto;
+}
+
+.header__button {
+  display: inline-block;
+}
+
+header p {
+  font-size: 24px;
+  margin: 0;
+}
+
+.header__pic {
+  float: right;
+  margin: 0 auto;
+  max-width: 50%;
+}

@@ -1,0 +1,40 @@
+.navigation__anchor {
+  display: none;
+}
+.navigation__mobile-menu .navigation__link {
+  display: block;
+}
+h1 {
+  text-align: left;
+  font-size: 50px;
+  margin-top: 20px auto;
+}
+
+h2 {
+  text-align: left;
+  font-size: 36px;
+  margin: 20px auto;
+}
+
+.navigation__logo {
+  max-width: 150px;
+}
+
+.header__pic {
+  max-width: 100%;
+}
+
+.decorative {
+  width: 90%;
+  margin: auto;
+}
+
+
+
+.networking__item img {
+  height: auto;
+}
+
+body p {
+  font-size: 18px;
+}
