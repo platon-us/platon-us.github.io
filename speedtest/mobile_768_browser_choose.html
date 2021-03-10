@@ -19,13 +19,9 @@
 	</style>
 </head>
 <body >
-	<picture>
-		<!-- png images -->
-		<!-- @tablet -->
-		<source media="(max-width: 480px)" srcset="/speedtest/tablet-480px.png">
-		<!-- @desktop -->
-		<img  src="/speedtest/original-1425px.png" alt="It’s responsive!" />
-	</picture>
-	
+	<img  srcset="/speedtest/tablet-768px.png 768w,
+				  /speedtest/desktop-930px.png 930w"
+	      src="/speedtest/desktop-930px.png"
+	      alt="It’s responsive!" />	
 </body>
 </html>
